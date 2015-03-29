@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+
+<book lang="en">
+<bookinfo>
+    <title>Title of the document</title>
+</bookinfo>
+<chapter id="_overview">
+<title>Overview</title>
+<section id="_section">
+<title>Section</title>
+<figure><title>a cat</title>
+<mediaobject>
+  <imageobject>
+  <imagedata fileref="images/cat.jpg" width="100%" scalefit="1"/>
+  </imageobject>
+  <textobject><phrase>images/cat.jpg</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara><emphasis>some italicized text about a cat</emphasis></simpara>
+<simpara>and this is the citation <xref linkend="Reinertsen2009"/></simpara>
+</section>
+<section id="_section_2">
+<title>Section</title>
+<informaltable
+frame="all"
+rowsep="1" colsep="1"
+>
+<tgroup cols="4">
+<colspec colname="col_1" colwidth="25*"/>
+<colspec colname="col_2" colwidth="25*"/>
+<colspec colname="col_3" colwidth="25*"/>
+<colspec colname="col_4" colwidth="25*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>this</simpara></entry>
+<entry align="left" valign="top"><simpara>is</simpara></entry>
+<entry align="left" valign="top"><simpara>a</simpara></entry>
+<entry align="left" valign="top"><simpara>table</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top" namest="col_1" nameend="col_2"><simpara>horizontal</simpara></entry>
+<entry align="left" valign="top"><simpara>span</simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top" morerows="1"><simpara>vertical</simpara></entry>
+<entry align="left" valign="top"><simpara>span</simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>span</simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section id="_section_3">
+<title>Section</title>
+<simpara>some text in section</simpara>
+</section>
+</chapter>
+<chapter id="_appendices">
+<title>Appendices</title>
+<section id="_appendices_2">
+<title>Appendices</title>
+<simpara>Some appendices</simpara>
+</section>
+<bibliography id="_references">
+<title>References</title>
+<bibliodiv>
+<bibliomixed>
+<bibliomisc>
+<anchor id="Betz2011a" xreflabel="[Betz2011a]"/>[Betz2011a]: Betz, C. T. (2011), <emphasis>Architecture and Patterns for IT: Service and Portfolio Management and Governance (Making Shoes for the Cobbler&#8217;s Children), 2nd Edition</emphasis>, Elsevier/Morgan Kaufman, Amsterdam
+</bibliomisc>
+</bibliomixed>
+<bibliomixed>
+<bibliomisc>
+<anchor id="Humble2011" xreflabel="[Humble2011]"/>[Humble2011]: Humble, J. &amp; Farley, D. (2011), <emphasis>Continuous delivery</emphasis>, Addison-Wesley, Boston
+</bibliomisc>
+</bibliomixed>
+<bibliomixed>
+<bibliomisc>
+<anchor id="Reinertsen2009" xreflabel="[Reinertsen2009]"/>[Reinertsen2009]: Reinertsen, D. G. (2009), <emphasis>The principles of product development flow: second generation lean product development</emphasis>, Celeritas, Redondo Beach, Calif.
+</bibliomisc>
+</bibliomixed>
+</bibliodiv>
+</bibliography>
+</chapter>
+</book>
