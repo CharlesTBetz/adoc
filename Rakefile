@@ -23,9 +23,9 @@ namespace :book do
     #`bundle exec asciidoctor-epub3 -a ebook-format=kf8 adoc.asc`
     #puts " -- Mobi output at adoc.mobi"
     # prefer a2x conversion
-    #puts "Converting to PDF... (this one takes a while)"
-    #`bundle exec asciidoctor-pdf adoc.asc 2>/dev/null`
-    #`bundle exec asciidoctor-pdf adoc.asc`
+    puts "Converting to PDF... (this one takes a while)"
+    `bundle exec asciidoctor-pdf adoc.asc 2>/dev/null`
+    #`bundle exec asciidoctor-pdf adoc.asc`  # verbose
 
     puts " -- PDF  output at adoc.pdf"
   end
